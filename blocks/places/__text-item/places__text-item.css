@@ -1,0 +1,25 @@
+.places__text-item {
+  width: 98%;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 26.08px;
+  margin: 0 0 25px 0;
+}
+
+.places__text-item:last-child {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .places__text-item {
+    width: 99%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places__text-item {
+    font-size: 18px;
+    line-height: 29.34px;
+    margin: 0 0 27px 0;
+  }
+}

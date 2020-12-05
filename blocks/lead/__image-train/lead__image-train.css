@@ -1,0 +1,22 @@
+.lead__image-train {
+  width: 100%;
+  margin: 0 0 8px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__image-train {
+    margin: 0 0 7px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__image-train {
+    margin: 0 0 8px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__image-train {
+    margin: 0 0 7px 0;
+  }
+}

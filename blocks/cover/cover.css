@@ -1,0 +1,51 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../images/__background.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  margin: 0 0 65px 0;
+  padding: 33px 0;
+}
+
+.cover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #2A2C2F;
+  opacity: 0.3;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    margin: 0 0 88px;
+    padding: 115px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    margin: 0 0 92px 0;
+    padding: 195px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    max-width: 1184px;
+    margin: 0 auto 91px auto;
+    padding: 245px 0;
+  }
+}

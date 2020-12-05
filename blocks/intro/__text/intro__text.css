@@ -1,0 +1,27 @@
+.intro__text {
+  font-size: 16px;
+  line-height: 26.08px;
+  font-weight: 400;
+  margin: 0 0 44px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__text {
+    width: 100%;
+    margin: 0 0 33px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__text {
+    width: 76%;
+    margin: 0 0 37px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__text {
+    width: 70%;
+    margin: 0 0 32px 0;
+  }
+}

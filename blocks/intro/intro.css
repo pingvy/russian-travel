@@ -1,0 +1,25 @@
+.intro {
+  width: 90vw;
+  margin: 0 auto 64px auto;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    width: 93.75vw;
+    margin: 0 auto 88px auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    width: 90.625vw;
+    margin: 0 auto 92px auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    width: 76.875vw;
+  }
+}
