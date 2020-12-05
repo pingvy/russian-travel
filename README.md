@@ -13,4 +13,4 @@
 * Grid Layout
 * Адаптивная вёрстка
 
-Ссылка на проект: https://pingvy.github.io/russian-travel/html.index
+Ссылка на проект: https://pingvy.github.io/russian-travel/index.html
