@@ -6,7 +6,6 @@
 }
 
 .footer__link:hover {
-  text-decoration: underline;
   opacity: 0.8;
 }
 

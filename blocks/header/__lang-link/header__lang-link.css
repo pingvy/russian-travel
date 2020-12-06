@@ -5,10 +5,6 @@
   text-decoration: none;
 }
 
-.header__lang-link_selected {
-  text-decoration: underline;
-}
-
 .header__lang-link:last-child {
   margin: 0;
 }
